@@ -57,7 +57,7 @@ submit.onclick = function() {
   var name = nameInput.value;
   
   //making the req
-  request.open('GET', "http://idscum.imad.hasura-app.io/submit-name?name?=" + name, true);
+  request.open('GET', "http://idscum.imad.hasura-app.io/submit-name?name=" + name, true);
   request.send(null); 
   
   

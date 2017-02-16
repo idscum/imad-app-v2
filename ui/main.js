@@ -37,7 +37,7 @@ submit.onclick = function() {
       {
           if(request.status === 200)//request successful
           {
-            var names= request.responseText;
+            var names= request.responseURL;
             names = JSON.parse(names);
             
             var list = '';
